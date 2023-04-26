@@ -14,13 +14,6 @@
 }
 
 
-/* 当屏幕宽度小于 768px 时,每行显示2个卡片 */
-@media (max-width: 767px) { 
-  .box2 {
-    width: 50%; /* 2 个卡片,每个占 50% */
-  }
-}
-
 .box2:hover {
     transform: translateY(-6px);
     -webkit-transform: translateY(-6px);
