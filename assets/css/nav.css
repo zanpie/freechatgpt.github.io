@@ -12,6 +12,19 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+/* 当屏幕宽度大于等于 768px 时,每行显示4个卡片 */ 
+@media (min-width: 768px) {
+  .box2 {
+    width: 25%;  /* 4 个卡片,每个占 25% */
+  }
+}
+
+/* 当屏幕宽度小于 768px 时,每行显示2个卡片 */
+@media (max-width: 767px) { 
+  .box2 {
+    width: 50%; /* 2 个卡片,每个占 50% */
+  }
+}
 
 .box2:hover {
     transform: translateY(-6px);
